@@ -31,8 +31,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Nhập ngày sinh vào đây"
-        android:inputType="date" />
+        android:hint="Nhập ngày sinh vào đây" />
 
     <TextView
         android:id="@+id/textView3"
@@ -72,42 +71,49 @@
         android:id="@+id/cbXemphim"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
         android:text="Xem phim" />
 
     <CheckBox
         android:id="@+id/cbNghenhac"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
         android:text="Nghe nhạc" />
 
     <CheckBox
         android:id="@+id/cbDicafe"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
         android:text="Đi cafe với bạn bè" />
 
     <CheckBox
         android:id="@+id/cbOnha"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
         android:text="Ở nhà một mình" />
 
     <CheckBox
         android:id="@+id/cbNauan"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
         android:text="Vào bếp nấu ăn" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
         android:text="Sở thích khác:" />
 
     <EditText
         android:id="@+id/edtSothich"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
         android:ems="10"
         android:hint="Nhập vào sở thích khác"
         android:inputType="textPersonName" />
